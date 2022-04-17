@@ -1,6 +1,5 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <h1>Välkommen till WestCoast Cars</h1>
-);
+import App from './App';
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
