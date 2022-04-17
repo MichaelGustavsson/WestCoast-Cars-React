@@ -22,6 +22,36 @@ function App() {
       mileage: 48500,
       value: 175000,
     },
+    {
+      id: 3,
+      registrationNo: 'GHI678',
+      make: 'Porsche',
+      model: 'Alpine',
+      modelYear: '1967',
+      imageUrl: 'https://i.postimg.cc/85xqHwJQ/car3.jpg',
+      mileage: 89000,
+      value: 175000,
+    },
+    {
+      id: 4,
+      registrationNo: 'JKL901',
+      make: 'Mercedes',
+      model: 'S500',
+      modelYear: '2019',
+      imageUrl: 'https://i.postimg.cc/MHRgrRVc/car4.jpg',
+      mileage: 25000,
+      value: 175000,
+    },
+    {
+      id: 5,
+      registrationNo: 'MNO902',
+      make: 'Mercedes',
+      model: 'AMG',
+      modelYear: '2014',
+      imageUrl: 'https://i.postimg.cc/wj9n01vv/car5.jpg',
+      mileage: 25000,
+      value: 175000,
+    },
   ];
 
   return (
