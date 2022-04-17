@@ -55,11 +55,11 @@ function App() {
   ];
 
   return (
-    <>
+    <section className='container'>
       <h1>Välkommen till WestCoast Cars</h1>
       <h2>Sälj eller köp din bil hos oss</h2>
       <VehicleList vehicles={vehicles} />
-    </>
+    </section>
   );
 }
 
