@@ -5,6 +5,9 @@ const VehicleInfo = ({ vehicle }) => {
       <div>{vehicle.registrationNo}</div>
       <div>{vehicle.make}</div>
       <div>{vehicle.model}</div>
+      <div>{vehicle.modelYear}</div>
+      <div>{vehicle.mileage} km</div>
+      <div>{vehicle.value} Kr</div>
     </section>
   );
 };

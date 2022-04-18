@@ -2,8 +2,7 @@ import VehicleInfo from './VehicleInfo';
 
 export default function VehicleList({ vehicles }) {
   return (
-    <article>
-      <h4>Här är ett litet exempel på bilar i vårt lager</h4>
+    <article className='vehicle-list'>
       {vehicles.map((vehicle) => (
         <VehicleInfo key={vehicle.id} vehicle={vehicle} />
       ))}
